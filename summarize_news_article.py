@@ -1,5 +1,6 @@
 # Develop an application that scraps online articles 
 # and generate concice summary.
+
 import requests
 from newspaper import Article
 from langchain.schema import (
@@ -36,7 +37,10 @@ def generate_summary():
     print(f"Title: {article_title}")
     print(f"Text: {article_text}") 
 
-    # prepare template for prompt
+    # Prompt construction - A well-crafted prompt ensures that the model understands the task, 
+    # which in our case, involved summarizing an article into a bulleted list. 
+    # By comprehending the nuances of prompt design, you can further tweak the model to generate outputs that suit unique needs.
+
     template = """"You are an advnaced assistant that summarizes online news articles into bullet points
 
     Here's the article you want to summarize.
