@@ -12,7 +12,7 @@ A PromptTemplate is a pattern used to construct effective and consistent prompts
 ## Prompts Examples:
 ### Good Prompts
 
-- ```
+```
 Answer the question based on the context below. If the
 question cannot be answered using the information provided, answer
 with "I don't know".
@@ -22,17 +22,19 @@ Context: Cybersecurity is the practice of protecting systems, networks, and prog
 Question: {query}
 Answer: 
 ```
-- ``` The following are excerpts from conversations with an AI
+
+``` The following are excerpts from conversations with an AI
 Mixed Martial Arts coach. The assistant provides insightful and practical advice to the users' questions. Here are some
 examples:
-
- {
+    {
         "query": "What's is Mixed Martial Arts(MMA)?",
         "answer": "MMA is a full-contact combat sport. It offers various disciplines like Muay Thai, Boxing and Brazilian jiu-jitsu."
-    }, {
+    }, 
+    {
         "query": "How do I choose a discipline?",
         "answer": "Try choosing a discipline by enrolling to trail classes and accessing factors like physical endurance and coaching standard."
     }
+    
 ==================
 User: {query}
 AI: 
