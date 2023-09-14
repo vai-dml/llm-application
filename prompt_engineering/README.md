@@ -51,13 +51,11 @@ Write a answer to the query in bullet points.
 ```
 Tell me something about {topic}.
 ```
-
-
+* This prompt is unclear, as it asks for information about the genres but also states not to provide specific details. This makes it difficult for the LLM to generate a coherent and informative response. 
 ```
 Tell me something about {genre1}, {genre2}, and {genre3} without giving any specific details.
 ```
-This prompt is unclear, as it asks for information about the genres but also states not to provide specific details. This makes it difficult for the LLM to generate a coherent and informative response. 
-
+* Misleading examples to LLM
 ```
     {
         "query": "What's the weather like?",
@@ -67,4 +65,3 @@ This prompt is unclear, as it asks for information about the genres but also sta
         "answer": "Age is just a number, but I'm timeless."
     }
 ```
-Misleading examples to AI
