@@ -1,6 +1,24 @@
 # llm-building-using-activeloop
 HandsOn LLM applications using LangChain and Deep Lake. Langchain gives developers a set of tools and components to build LLM powered applications.
 
+## Art of Prompt Engineering
+
+* Role Promopting - Enable the LLM to act as developer or writer, basically to inherit an identity.
+* Few Shot Prompting - Guide the LLM with limited set of example responses that you expect. 
+* Chain Prompting - Amplify reasoning with LLM output as input to next prompt.
+* Prompt templates - Improve model context with dynamic prompting
+* Create error free output formats by applying ouput parsing.
+* Build knowledge graphs by discovering hidden relationhip.
+
+## Data Points
+
+* The maximum number of tokens the model can process, is determined by the specific implementation of the LLM. Each model has token limit it can take in. Split the text into smaller chunks to handle large inputs.
+* Few shot learning is the ability that allows LLMs to learn and genralize from limited examples. Examples can be both hard coded or dynamically selected and can be feeded to the LLM.
+* occurrence of hallucinations - models can produce text that appears plausible on the surface but is actually factually incorrect or unrelated to the given input.
+* LLMs may exhibit biases originating from their training data, resulting in outputs that can generate undesired outcomes.
+* LLM examples include Text Summarization, Text Translation, and Question Answering
+* Well-known models like GPT family, LLaMA employ subword level tokenization method. One of the variant used is Byte Pair Encoding (BPE)
+
 ## The Chains
 
 In LangChain, a chain is an end-to-end wrapper around multiple individual components, providing a way to accomplish a common use case by combining these components in a specific sequence. The most commonly used type of chain is the LLMChain, which consists of a PromptTemplate, a model (either an LLM or a ChatModel), and an optional output parser.
@@ -39,12 +57,8 @@ The self-ask-with-search agent employs a single tool named Intermediate Answer, 
 The conversational-react-description agent is designed for conversational situations. It uses the ReAct framework to select a tool and uses memory to remember past conversation interactions.
 
 
-# Data Points
 
-* The maximum number of tokens the model can process, is determined by the specific implementation of the LLM. Each model has token limit it can take in. Split the text into smaller chunks to handle large inputs.
-* Few shot learning is the ability that allows LLMs to learn and genralize from limited examples. Examples can be both hard coded or dynamically selected and can be feeded to the LLM.
-* occurrence of hallucinations - models can produce text that appears plausible on the surface but is actually factually incorrect or unrelated to the given input.
-* LLMs may exhibit biases originating from their training data, resulting in outputs that can generate undesired outcomes.
-* LLM examples include Text Summarization, Text Translation, and Question Answering
-* Well-known models like GPT family, LLaMA employ subword level tokenization method. One of the variant used is Byte Pair Encoding (BPE)
-* 
+
+
+
+ 
