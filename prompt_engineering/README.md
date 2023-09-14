@@ -47,10 +47,11 @@ Write a answer to the query in bullet points.
 
 ### Bad Prompts
 
+* This prompt is too-vague prompt that provides very little context for the model to generate a meaningful response.
 ```
 Tell me something about {topic}.
 ```
-This prompt is too-vague prompt that provides very little context for the model to generate a meaningful response.
+
 
 ```
 Tell me something about {genre1}, {genre2}, and {genre3} without giving any specific details.
