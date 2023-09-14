@@ -25,8 +25,8 @@ Answer:
 
 ### Bad Prompts
 
+- ```Tell me something about {topic}.```
 This prompt is too-vague prompt that provides very little context for the model to generate a meaningful response.
-```Tell me something about {topic}.```
 
+- ```Tell me something about {genre1}, {genre2}, and {genre3} without giving any specific details.```
 This prompt is unclear, as it asks for information about the genres but also states not to provide specific details. This makes it difficult for the LLM to generate a coherent and informative response. 
-```Tell me something about {genre1}, {genre2}, and {genre3} without giving any specific details.```
