@@ -9,6 +9,9 @@
 
 A PromptTemplate is a pattern used to construct effective and consistent prompts for large language models. It is a guideline to ensure the input text or prompt is properly formatted.
 
+* Use the SemanticSimilarityExampleSelector that selects examples based on SemanticSimilarity. Store the example embeddings in a vector store.
+
+
 ## Prompts Examples:
 ### Good Prompts
 
