@@ -1,6 +1,6 @@
 # LLM Repository
 
-HandsOn LLM applications using LangChain,Deep Lake,Cohere,Open API and other framewokrs. Langchain gives developers a set of tools and components to build LLM powered applications.
+HandsOn LLM applications using LangChain,Deep Lake,Cohere,Open API and other frameworks. Langchain gives developers a set of tools and components to build LLM powered applications.
 
 
 ## Data Points
