@@ -140,12 +140,17 @@ def summarize():
 
 urls=["https://www.youtube.com/watch?v=mBjPyte2ZZo&t=78s",
     "https://www.youtube.com/watch?v=cjs7QKJNVYM",]
+
+# Step 1
 # Use the below methods for initial loading and transcribing the video.
 # videos_details = download_yt_video(urls, 1)
 
-video_details=["1_0.mp4","1_1.mp4"]
-transcribe_video(video_details)
+# Step 2
+# make sure the above method is commented before calling transcribe_video method.
+# video_details=["1_0.mp4","1_1.mp4"]
+# transcribe_video(video_details)
 
+# Step 3
 # make sure the above methods are commented before calling summarize method.
-#summarize()
+summarize()
 
