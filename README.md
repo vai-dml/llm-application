@@ -1,5 +1,6 @@
-# llm-building-using-activeloop
-HandsOn LLM applications using LangChain and Deep Lake. Langchain gives developers a set of tools and components to build LLM powered applications.
+# LLM Repository
+
+HandsOn LLM applications using LangChain,Deep Lake,Cohere,Open API and other framewokrs. Langchain gives developers a set of tools and components to build LLM powered applications.
 
 
 ## Data Points
