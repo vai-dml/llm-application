@@ -27,9 +27,9 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 ssl._create_default_https_context = ssl._create_unverified_context
-os.environ['COHERE_API_KEY'] = "hlFSPeets52pJaCOepbfpcOGro6ak2u5Y7OqRNJg"
-os.environ['OPEN_API_KEY'] = "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"
-os.environ['ACTIVELOOP_TOKEN'] = "eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5NDQwNjYyMywiZXhwIjoxNjk4NzI2NTQwfQ.eyJpZCI6InZhaSJ9.qZ3D1O1NdQohLG7Of9i-lymdNYSfgnRwiZyhmY3jezZ8V3W2TPdJ7AdK2qJ3j0SrpJVSQQ_LPM2gKq497t0bkw"
+os.environ['COHERE_API_KEY'] = ""
+os.environ['OPEN_API_KEY'] = ""
+os.environ['ACTIVELOOP_TOKEN'] = ""
 
 # adding multiple URLs
 def download_yt_video(urls, job_id):
