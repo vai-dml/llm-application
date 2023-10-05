@@ -10,7 +10,9 @@ HandsOn LLM applications using LangChain and Deep Lake. Langchain gives develope
 * LLMs may exhibit biases originating from their training data, resulting in outputs that can generate undesired outcomes.
 * LLM examples include Text Summarization, Text Translation, and Question Answering
 * Well-known models like GPT family, LLaMA employ subword level tokenization method. One of the variant used is Byte Pair Encoding (BPE)
-
+* Character Text Splitter - This type of splitter can be used in various scenarios where you must split long text pieces into smaller, semantically meaningful chunks. For example, you might use it to split a long article into smaller chunks for easier processing or analysis
+* The Recursive Character Text Splitter is a text splitter designed to split the text into chunks based on a list of characters provided.
+* Embedding models are a type of machine learning model that convert discrete data into continuous vectors.
 
 
 
